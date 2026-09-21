@@ -1,151 +1,229 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tentang Kami - Nexus Digital</title>
-  <meta name="description" content="Profil Perusahaan, Visi, Misi, dan Nilai-nilai Utama Nexus Digital.">
-  <link rel="stylesheet" href="about.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang Kami - Nexus Digital</title>
+    <meta
+      name="description"
+      content="Profil Perusahaan, Visi, Misi, dan Nilai-nilai Utama Nexus Digital."
+    />
+    <link rel="stylesheet" href="about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header class="site-header" id="siteHeader">
+      <div class="container header-inner">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">N</div>
+          <span>Nexus<span class="gradient-text">Digital</span></span>
+        </a>
 
-  <!-- Navigation Bar -->
-  <header class="site-header" id="siteHeader">
-    <div class="container header-inner">
-      <a href="index.html" class="logo">
-        <div class="logo-icon">N</div>
-        <span>Nexus<span class="gradient-text">Digital</span></span>
-      </a>
+        <!-- 9 Separate HTML Page Links -->
+        <nav class="main-nav" id="mainNav">
+          <a href="index.html" class="nav-link"
+            ><i class="fa-solid fa-house"></i> Beranda</a
+          >
+          <a href="about.html" class="nav-link active"
+            ><i class="fa-solid fa-circle-info"></i> Tentang</a
+          >
+          <a href="services.html" class="nav-link"
+            ><i class="fa-solid fa-cubes"></i> Layanan</a
+          >
+          <a href="portfolio.html" class="nav-link"
+            ><i class="fa-solid fa-briefcase"></i> Portofolio</a
+          >
+          <a href="features.html" class="nav-link"
+            ><i class="fa-solid fa-wand-magic-sparkles"></i> Fitur</a
+          >
+          <a href="blog.html" class="nav-link"
+            ><i class="fa-solid fa-newspaper"></i> Blog</a
+          >
+          <a href="team.html" class="nav-link"
+            ><i class="fa-solid fa-users"></i> Tim</a
+          >
+          <a href="faq.html" class="nav-link"
+            ><i class="fa-solid fa-circle-question"></i> FAQ</a
+          >
+          <a href="contact.html" class="nav-link"
+            ><i class="fa-solid fa-envelope"></i> Kontak</a
+          >
+        </nav>
 
-      <!-- 9 Separate HTML Page Links -->
-      <nav class="main-nav" id="mainNav">
-        <a href="index.html" class="nav-link"><i class="fa-solid fa-house"></i> Beranda</a>
-        <a href="about.html" class="nav-link active"><i class="fa-solid fa-circle-info"></i> Tentang</a>
-        <a href="services.html" class="nav-link"><i class="fa-solid fa-cubes"></i> Layanan</a>
-        <a href="portfolio.html" class="nav-link"><i class="fa-solid fa-briefcase"></i> Portofolio</a>
-        <a href="features.html" class="nav-link"><i class="fa-solid fa-wand-magic-sparkles"></i> Fitur</a>
-        <a href="blog.html" class="nav-link"><i class="fa-solid fa-newspaper"></i> Blog</a>
-        <a href="team.html" class="nav-link"><i class="fa-solid fa-users"></i> Tim</a>
-        <a href="faq.html" class="nav-link"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-        <a href="contact.html" class="nav-link"><i class="fa-solid fa-envelope"></i> Kontak</a>
-      </nav>
-
-      <div class="header-actions">
-        <a href="contact.html" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Mulai Proyek</a>
-        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation"><i class="fa-solid fa-bars"></i></button>
+        <div class="header-actions">
+          <a href="contact.html" class="btn btn-primary"
+            ><i class="fa-solid fa-paper-plane"></i> Mulai Proyek</a
+          >
+          <button
+            class="mobile-toggle"
+            id="mobileToggle"
+            aria-label="Toggle Navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- Main Content: About Page -->
-  <main class="page-view">
-    <div class="container">
-      <div class="page-header">
-        <div class="section-tag"><i class="fa-solid fa-building"></i> Profil Perusahaan</div>
-        <h1 class="page-title">Membangun Masa Depan <span class="gradient-text">Ekosistem Digital</span></h1>
-        <p class="subtitle">Nexus Digital adalah studio inovasi teknologi terdepan yang berfokus pada transformasi digital berstandar internasional.</p>
-      </div>
-
-      <div class="grid-2" style="align-items: center; margin-bottom: 4rem;">
-        <div>
-          <h2 style="font-size: 2rem; margin-bottom: 1rem;">Misi & Visi Kami</h2>
-          <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
-            Sejak didirikan pada tahun 2020, kami percaya bahwa kombinasi antara keindahan desain UI/UX dan keandalan rekayasa perangkat lunak adalah kunci utama kesuksesan produk digital modern.
+    <!-- Main Content: About Page -->
+    <main class="page-view">
+      <div class="container">
+        <div class="page-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-building"></i> Profil Perusahaan
+          </div>
+          <h1 class="page-title">
+            Membangun Masa Depan
+            <span class="gradient-text">Ekosistem Digital</span>
+          </h1>
+          <p class="subtitle">
+            Nexus Digital adalah studio inovasi teknologi terdepan yang berfokus
+            pada transformasi digital berstandar internasional.
           </p>
-          <div class="feature-box" style="margin-bottom: 1rem;">
-            <div class="feature-icon-sm"><i class="fa-solid fa-eye"></i></div>
-            <div>
-              <h4 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Visi Strategis</h4>
-              <p style="color: var(--text-muted); font-size: 0.9rem;">Menjadi pelopor teknologi digital terpercaya yang memberdayakan jutaan pengguna secara global.</p>
+          <div class="about-highlight">
+            <i class="fa-solid fa-circle-check"></i> Dipercaya sejak 2020 untuk
+            menghadirkan inovasi digital berdampak.
+          </div>
+        </div>
+
+        <div class="grid-2" style="align-items: center; margin-bottom: 4rem">
+          <div>
+            <h2 style="font-size: 2rem; margin-bottom: 1rem">
+              Misi & Visi Kami
+            </h2>
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem">
+              Sejak didirikan pada tahun 2020, kami percaya bahwa kombinasi
+              antara keindahan desain UI/UX dan keandalan rekayasa perangkat
+              lunak adalah kunci utama kesuksesan produk digital modern.
+            </p>
+            <div class="feature-box" style="margin-bottom: 1rem">
+              <div class="feature-icon-sm"><i class="fa-solid fa-eye"></i></div>
+              <div>
+                <h4 style="font-size: 1.1rem; margin-bottom: 0.25rem">
+                  Visi Strategis
+                </h4>
+                <p style="color: var(--text-muted); font-size: 0.9rem">
+                  Menjadi pelopor teknologi digital terpercaya yang
+                  memberdayakan jutaan pengguna secara global.
+                </p>
+              </div>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon-sm">
+                <i class="fa-solid fa-bullseye"></i>
+              </div>
+              <div>
+                <h4 style="font-size: 1.1rem; margin-bottom: 0.25rem">
+                  Misi Inovasi
+                </h4>
+                <p style="color: var(--text-muted); font-size: 0.9rem">
+                  Mengembangkan solusi digital yang aman, berskala besar, dan
+                  ramah pengguna tanpa kompromi.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="feature-box">
-            <div class="feature-icon-sm"><i class="fa-solid fa-bullseye"></i></div>
-            <div>
-              <h4 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Misi Inovasi</h4>
-              <p style="color: var(--text-muted); font-size: 0.9rem;">Mengembangkan solusi digital yang aman, berskala besar, dan ramah pengguna tanpa kompromi.</p>
+
+          <div class="card" style="padding: 2.5rem">
+            <h3 class="card-title" style="margin-bottom: 1.5rem">
+              <i class="fa-solid fa-award" style="color: var(--primary)"></i>
+              Nilai Utama Kami
+            </h3>
+            <ul style="display: flex; flex-direction: column; gap: 1.25rem">
+              <li style="display: flex; gap: 1rem">
+                <span style="color: var(--success); font-weight: bold"
+                  >01.</span
+                >
+                <div>
+                  <strong>Integritas Kualitas:</strong> Kami tidak pernah
+                  mengorbankan kualitas demi standar kecepatan instan.
+                </div>
+              </li>
+              <li style="display: flex; gap: 1rem">
+                <span style="color: var(--secondary); font-weight: bold"
+                  >02.</span
+                >
+                <div>
+                  <strong>Inovasi Berkelanjutan:</strong> Selalu mengeksplorasi
+                  teknologi dan pendekatan riset terbaru.
+                </div>
+              </li>
+              <li style="display: flex; gap: 1rem">
+                <span style="color: var(--accent); font-weight: bold">03.</span>
+                <div>
+                  <strong>Fokus Pada Klien:</strong> Kesuksesan mitra bisnis
+                  kami adalah prioritas utama perancangan.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="index.html" class="logo">
+              <div class="logo-icon">N</div>
+              <span>Nexus<span class="gradient-text">Digital</span></span>
+            </a>
+            <p>
+              Solusi platform teknologi terintegrasi dengan 9 halaman HTML dan 9
+              stylesheet CSS terpisah.
+            </p>
+          </div>
+          <div>
+            <h4 class="footer-title">Navigasi Utama</h4>
+            <div class="footer-links">
+              <a href="index.html" class="footer-link">Beranda</a>
+              <a href="about.html" class="footer-link">Tentang Kami</a>
+              <a href="services.html" class="footer-link">Layanan</a>
+              <a href="portfolio.html" class="footer-link">Portofolio</a>
+            </div>
+          </div>
+          <div>
+            <h4 class="footer-title">Halaman Informasi</h4>
+            <div class="footer-links">
+              <a href="features.html" class="footer-link">Fitur Utama</a>
+              <a href="blog.html" class="footer-link">Blog & Artikel</a>
+              <a href="team.html" class="footer-link">Tim Kami</a>
+              <a href="faq.html" class="footer-link">FAQ</a>
+              <a href="contact.html" class="footer-link">Kontak</a>
+            </div>
+          </div>
+          <div>
+            <h4 class="footer-title">Koneksi</h4>
+            <div class="footer-links">
+              <a href="#" class="footer-link"
+                ><i class="fa-brands fa-github"></i> GitHub</a
+              >
+              <a href="#" class="footer-link"
+                ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+              >
+              <a href="#" class="footer-link"
+                ><i class="fa-brands fa-twitter"></i> Twitter</a
+              >
             </div>
           </div>
         </div>
-
-        <div class="card" style="padding: 2.5rem;">
-          <h3 class="card-title" style="margin-bottom: 1.5rem;"><i class="fa-solid fa-award" style="color: var(--primary);"></i> Nilai Utama Kami</h3>
-          <ul style="display: flex; flex-direction: column; gap: 1.25rem;">
-            <li style="display: flex; gap: 1rem;">
-              <span style="color: var(--success); font-weight: bold;">01.</span>
-              <div>
-                <strong>Integritas Kualitas:</strong> Kami tidak pernah mengorbankan kualitas demi standar kecepatan instan.
-              </div>
-            </li>
-            <li style="display: flex; gap: 1rem;">
-              <span style="color: var(--secondary); font-weight: bold;">02.</span>
-              <div>
-                <strong>Inovasi Berkelanjutan:</strong> Selalu mengeksplorasi teknologi dan pendekatan riset terbaru.
-              </div>
-            </li>
-            <li style="display: flex; gap: 1rem;">
-              <span style="color: var(--accent); font-weight: bold;">03.</span>
-              <div>
-                <strong>Fokus Pada Klien:</strong> Kesuksesan mitra bisnis kami adalah prioritas utama perancangan.
-              </div>
-            </li>
-          </ul>
+        <div class="footer-bottom">
+          <div>&copy; 2026 Nexus Digital Studio. All rights reserved.</div>
+          <div>1 File HTML Masing-Masing 1 File CSS</div>
         </div>
       </div>
-    </div>
-  </main>
+    </footer>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="logo">
-            <div class="logo-icon">N</div>
-            <span>Nexus<span class="gradient-text">Digital</span></span>
-          </a>
-          <p>Solusi platform teknologi terintegrasi dengan 9 halaman HTML dan 9 stylesheet CSS terpisah.</p>
-        </div>
-        <div>
-          <h4 class="footer-title">Navigasi Utama</h4>
-          <div class="footer-links">
-            <a href="index.html" class="footer-link">Beranda</a>
-            <a href="about.html" class="footer-link">Tentang Kami</a>
-            <a href="services.html" class="footer-link">Layanan</a>
-            <a href="portfolio.html" class="footer-link">Portofolio</a>
-          </div>
-        </div>
-        <div>
-          <h4 class="footer-title">Halaman Informasi</h4>
-          <div class="footer-links">
-            <a href="features.html" class="footer-link">Fitur Utama</a>
-            <a href="blog.html" class="footer-link">Blog & Artikel</a>
-            <a href="team.html" class="footer-link">Tim Kami</a>
-            <a href="faq.html" class="footer-link">FAQ</a>
-            <a href="contact.html" class="footer-link">Kontak</a>
-          </div>
-        </div>
-        <div>
-          <h4 class="footer-title">Koneksi</h4>
-          <div class="footer-links">
-            <a href="#" class="footer-link"><i class="fa-brands fa-github"></i> GitHub</a>
-            <a href="#" class="footer-link"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-            <a href="#" class="footer-link"><i class="fa-brands fa-twitter"></i> Twitter</a>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <div>&copy; 2026 Nexus Digital Studio. All rights reserved.</div>
-        <div>1 File HTML Masing-Masing 1 File CSS</div>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById('mobileToggle').addEventListener('click', () => {
-      document.getElementById('mainNav').classList.toggle('mobile-active');
-    });
-  </script>
-</body>
+    <script>
+      document.getElementById("mobileToggle").addEventListener("click", () => {
+        document.getElementById("mainNav").classList.toggle("mobile-active");
+      });
+    </script>
+  </body>
 </html>
