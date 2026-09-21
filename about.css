@@ -1,4 +1,4 @@
-@import url('common.css');
+@import url("common.css");
 
 /* ==========================================================================
    Page-Specific Styles: Tentang Kami (about.html)
@@ -9,6 +9,19 @@
   gap: 2rem;
 }
 
+.about-highlight {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  border-radius: 999px;
+  color: var(--success);
+  background: rgba(16, 185, 129, 0.08);
+  font-size: 0.9rem;
+}
+
 .feature-box {
   display: flex;
   gap: 1.25rem;
@@ -17,6 +30,14 @@
   border-radius: var(--radius-md);
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid var(--glass-border);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.feature-box:hover {
+  transform: translateX(6px);
+  border-color: var(--secondary);
 }
 
 .feature-icon-sm {
@@ -33,5 +54,7 @@
 }
 
 @media (max-width: 1024px) {
-  .grid-2 { grid-template-columns: 1fr; }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
 }
